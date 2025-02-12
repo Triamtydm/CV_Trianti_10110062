@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ke Trianti</title>
+    <link rel="stylesheet" href="stylesheet.css"> 
+    <style>
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc; 
+        }
+
+     
+        h1 {
+            text-align: center; 
+            color: #e6be8a; 
+            margin-top: 20px;
+        }
+
+        hr {
+            border: 1px solid #d1e7dd; 
+            margin: 20px 0;
+        }
+
+        
+        .form-container {
+            max-width: 600px; 
+            margin: 20px auto; 
+            background: #ffffff; 
+            padding: 30px; 
+            border-radius: 20px; 
+            box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1); 
+            border: 2px solid #f8d5ad; 
+        }
+
+     
+        label {
+            display: block; 
+            margin: 10px 0 5px;
+            color: #6d5648; 
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+            margin-bottom: 10px; 
+        }
+
+        input[type="submit"] {
+            background: #6d5648; 
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background: #e6be8a; 
+        }
+
+        a {
+            display: block; 
+            margin-top: 10px; 
+            text-align: center; 
+            color: #6d5648; 
+            text-decoration: none; 
+        }
+
+        a:hover {
+            text-decoration: underline; 
+        }
+
+        .error-message {
+            color: red; 
+            font-size: 0.9em; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Hubungi ke Trianti</h1>
+    <hr/>
+    <div class="form-container">
+        <form>
+            <label>Nama</label>
+            <input type="text" placeholder="Isi Nama lengkap disini.." required>
+            <p class="error-message">*wajib diisi.</p>
+
+            <label>Pesan</label>
+            <input type="text" placeholder="Isi pesan disini.." required>
+            <p class="error-message">*wajib diisi.</p>
+
+            <input type="submit" value="Simpan Data">
+            <a href="./index.html">Kembali</a>
+        </form>
+    </div>
+</body>
+</html>
